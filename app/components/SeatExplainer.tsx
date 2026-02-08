@@ -8,9 +8,9 @@ export default function SeatExplainer() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
         {/* Collab Seat */}
-        <div className="border rounded-xl p-6">
+        <div className="border-l border-l-gray-200 p-6 px-8">
           <div className="flex items-center mb-4">
             <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
               <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
@@ -51,7 +51,7 @@ export default function SeatExplainer() {
         </div>
 
         {/* Dev Seat */}
-        <div className="border rounded-xl p-6">
+        <div className="border-l border-l-gray-200 p-6 px-8">
           <div className="flex items-center mb-4">
             <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
               <div className="w-6 h-6 bg-purple-500 rounded-full"></div>
@@ -98,7 +98,7 @@ export default function SeatExplainer() {
         </div>
 
         {/* Full Seat */}
-        <div className="border rounded-xl p-6">
+        <div className="border-l border-l-gray-200 p-6 px-8">
           <div className="flex items-center mb-4">
             <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
               <div className="w-6 h-6 bg-green-500 rounded-full"></div>
