@@ -12,10 +12,7 @@ export default function SeatExplainer() {
         {/* Collab Seat */}
         <div className="border-l border-l-gray-200 p-6 px-8">
           <div className="flex items-center mb-4">
-            <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-              <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
-            </div>
-            <h3 className="text-xl font-bold">Collab seat</h3>
+            <h3 className="text-xl font-bold">The Collab seat makes it easy to work together.</h3>
           </div>
           <p className="text-gray-600 mb-4">
             Best for stakeholders who need to view, comment, and collaborate on designs.
@@ -53,10 +50,7 @@ export default function SeatExplainer() {
         {/* Dev Seat */}
         <div className="border-l border-l-gray-200 p-6 px-8">
           <div className="flex items-center mb-4">
-            <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
-              <div className="w-6 h-6 bg-purple-500 rounded-full"></div>
-            </div>
-            <h3 className="text-xl font-bold">Dev seat</h3>
+            <h3 className="text-xl font-bold">The Dev seat gives devs the details they need.</h3>
           </div>
           <p className="text-gray-600 mb-4">
             Best for developers who need to handoff and collaborate on designs.
@@ -100,10 +94,7 @@ export default function SeatExplainer() {
         {/* Full Seat */}
         <div className="border-l border-l-gray-200 p-6 px-8">
           <div className="flex items-center mb-4">
-            <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
-              <div className="w-6 h-6 bg-green-500 rounded-full"></div>
-            </div>
-            <h3 className="text-xl font-bold">Full seat</h3>
+            <h3 className="text-xl font-bold">The Full seat connects your entire workflow.</h3>
           </div>
           <p className="text-gray-600 mb-4">
             Best for creators who need to design, prototype, and collaborate.
