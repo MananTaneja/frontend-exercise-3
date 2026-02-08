@@ -152,14 +152,14 @@ export default function PricingCard({
       </div>
 
       <div className="mt-6 pt-6 border-t">
-        <h3 className="font-bold mb-3">Why choose {title}?</h3>
+        <h3 className="font-bold mb-2">Why choose {title}?</h3>
         <ul className="space-y-2">
           {whyChooseFeatures.map((feature, index) => (
             <li key={index} className="flex items-start">
-              <svg className="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-3 h-3 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span>{feature}</span>
+              <span><p className='text-xs'>{feature}</p></span>
             </li>
           ))}
         </ul>
