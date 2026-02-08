@@ -32,6 +32,7 @@ export default function PricingCards({ professionalPrices, organizationPrices, e
 
   return (
     <section className="py-8 px-8 max-w-[1440px] mx-auto">
+      <p className="text-right text-gray-500 text-sm mr-2">Prices in USD</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
         {/* Starter Card */}
         <PricingCard

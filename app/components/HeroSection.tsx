@@ -16,7 +16,6 @@ export default function HeroSection() {
             ))}
           </div>
         </div>
-        <p className="text-gray-500 text-sm">Prices in USD</p>
       </div>
     </section>
   );
